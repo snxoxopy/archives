@@ -10,6 +10,9 @@
       {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
       {% if s.text %}{{ s.text | markdownify }}
       
+      {% endif %}
+      {% if s.nav %}{% include nav_list nav=s.nav %}
+      
         <form action="/search">
         <div class="tipue_search_left">
         <img src="/assets/tipuesearch/search.png" class="tipue_search_icon">
@@ -17,10 +20,9 @@
         <div class="tipue_search_right">
         <input type="text" name="q" id="tipue_search_input" pattern=".{1,}" title="At least 1 characters" required></div>
         <div style="clear: both;"></div>
-        </form>
+        </form>  
       
       {% endif %}
-      {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
     {% endfor %}
     {% if page.sidebar.nav %}
       {% include nav_list nav=page.sidebar.nav %}
