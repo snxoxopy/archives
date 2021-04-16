@@ -1,5 +1,5 @@
 ---
-title:  "[Blog] Favicon 파비콘이 설정 안되었던 이유"
+title:  "[Giuhub.io] Favicon 파비콘 안보임 설정 해결"
 excerpt: "https://kairos03.github.io/jekyll/2017/09/11/learing-Up-Confusion-Around-baseurl.html"
 toc: True
 toc_sticky: True
@@ -31,4 +31,6 @@ tags:
 
 
 > **Shout out to**
-[https://kairos03.github.io/jekyll/2017/09/11/learing-Up-Confusion-Around-baseurl.html
+[Github 블로그 탭 아이콘(favicon) 설정](https://m.blog.naver.com/prt1004dms/221451802933)
+[baseurl과 관련된 모호한 것들 정리](https://kairos03.github.io/jekyll/2017/09/11/learing-Up-Confusion-Around-baseurl.html)
+
