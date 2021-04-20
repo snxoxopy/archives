@@ -25,6 +25,10 @@
       <div class="author__bio" itemprop="description">
         {{ author.bio | markdownify }}
       </div>
+      <div class="author__boj" itemprop="description">
+        <a href="{{ author.home | relative_url }}">
+            <img src="http://mazassumnida.wtf/api/generate_badge?boj=snoo_py" alt="{{ author.name }}" itemprop="image">
+        </a>
     {% endif %}
   </div>
 
