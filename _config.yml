@@ -266,8 +266,7 @@ compress_html:
   ignore:
     envs: development
 
-sidebar:
-  nav: "sidebar"
+
 
 # Defaults
 defaults:
@@ -295,13 +294,6 @@ defaults:
     values:
       sidebar:
       nav: "docs"
-  # _sidebar
-  - scope:
-      path: ""
-      type: sidebar
-    values:
-      sidebar:
-      nav: "sidebar"
 
 tipue_search:
     include:
