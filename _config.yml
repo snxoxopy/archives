@@ -291,3 +291,7 @@ tipue_search:
         files: [search.html, index.html, tags.html]
         categories: []
         tags: []
+
+sidebar:
+  - title: "solved.ac"
+    text: [![Solved.ac tier](http://mazassumnida.wtf/api/mini/generate_badge?boj=snoo_py)](https://solved.ac/profile/snoo_py)  
