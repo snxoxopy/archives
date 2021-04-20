@@ -5,9 +5,7 @@ toc: False
 toc_sticky: False
 toc_label: "Contents"
 sidebar:
-  nav: 
-  - "sidebar"
-  - "docs"
+  nav: "sidebar"
 categories:
   - blog
 tags:
@@ -21,7 +19,7 @@ tags:
 
 ```yaml
 sidebar:
-  nav: "docs"
+  nav: "sidebar"
 sidebar:
   - title: "solved.ac"
     image: http://mazassumnida.wtf/api/generate_badge?boj=snoo_py
