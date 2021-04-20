@@ -118,10 +118,6 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-  sidebar:
-    - title: "solved.ac"
-    image: http://mazassumnida.wtf/api/generate_badge?boj=snoo_py
-    image_alt: "BOJ_snoo_py"
 
 # Site Footer
 footer:
@@ -270,6 +266,12 @@ compress_html:
   ignore:
     envs: development
 
+sidebar:
+  - title: "solved.ac"
+  image: http://mazassumnida.wtf/api/generate_badge?boj=snoo_py
+  image_alt: "BOJ_snoo_py"
+  nav: "docs"
+
 
 # Defaults
 defaults:
@@ -290,6 +292,13 @@ defaults:
       type: tag
     values:
       author_profile: true
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"
 
 tipue_search:
     include:
