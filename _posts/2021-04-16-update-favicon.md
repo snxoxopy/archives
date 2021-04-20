@@ -1,5 +1,5 @@
 ---
-title:  "[Giuhub.io] Favicon 파비콘 안보임 설정 해결"
+title:  "[Github.io] Favicon 파비콘 안보임 설정 해결"
 excerpt: "https://kairos03.github.io/jekyll/2017/09/11/learing-Up-Confusion-Around-baseurl.html"
 toc: True
 toc_sticky: True
