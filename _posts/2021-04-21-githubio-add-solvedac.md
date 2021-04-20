@@ -10,8 +10,11 @@ tags:
   - jekyll
 ---
 
+sidebar:
+  nav: "docs"
+
 [참고자료](https://mmistakes.github.io/minimal-mistakes/docs/layouts/)
-![스크린샷](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/60b6bf1d-2b00-42c4-8df1-913814efbbff/Untitled.png)
+
 
 sidebar:
   - title: "solved.ac"
