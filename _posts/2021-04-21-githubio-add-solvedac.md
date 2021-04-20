@@ -5,7 +5,9 @@ toc: False
 toc_sticky: False
 toc_label: "Contents"
 sidebar:
-  nav: "docs"
+  nav: 
+  - "sidebar"
+  - "docs"
 categories:
   - blog
 tags:

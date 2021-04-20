@@ -267,7 +267,7 @@ compress_html:
     envs: development
 
 sidebar:
-  nav: "docs"
+  nav: "sidebar"
 
 # Defaults
 defaults:
@@ -295,13 +295,13 @@ defaults:
     values:
       sidebar:
       nav: "docs"
-  # _docs
+  # _sidebar
   - scope:
       path: ""
       type: sidebar
     values:
       sidebar:
-      nav: "docs"
+      nav: "sidebar"
 
 tipue_search:
     include:
