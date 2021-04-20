@@ -1,5 +1,5 @@
 ---
-title:  "[Giuhub.io] Posts by tag 추가하기"
+title:  "[Github.io] Posts by tag 추가하기"
 excerpt: "https://mmistakes.github.io/minimal-mistakes/docs/layouts/"
 toc: False
 toc_sticky: False
