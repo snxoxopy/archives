@@ -8,7 +8,7 @@ sidebar:
   - title: "solved.ac"
     image: http://mazassumnida.wtf/api/v2/generate_badge?boj=snoo_py
     text: [![Solved.ac snoo_py](http://mazassumnida.wtf/api/mini/generate_badge?boj=snoo_py)]
-author_profile: True
+author_profile: true
 categories:
   - blog
 tags:
