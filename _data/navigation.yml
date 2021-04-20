@@ -26,5 +26,5 @@ docs:
   - title: algorithm
     children:
     - title: tags
-      url: /tags/boj
+      url: /tags/#boj
     

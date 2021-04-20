@@ -295,6 +295,13 @@ defaults:
     values:
       sidebar:
       nav: "docs"
+  # _docs
+  - scope:
+      path: ""
+      type: sidebar
+    values:
+      sidebar:
+      nav: "docs"
 
 tipue_search:
     include:
