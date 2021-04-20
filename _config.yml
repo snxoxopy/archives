@@ -118,6 +118,10 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+  sidebar:
+    - title: "solved.ac"
+    image: http://mazassumnida.wtf/api/generate_badge?boj=snoo_py
+    image_alt: "BOJ_snoo_py"
 
 # Site Footer
 footer:
@@ -281,7 +285,11 @@ defaults:
       share: true
       related: true
       show_date: true
-
+  - scope:
+      path: ""
+      type: tag
+    values:
+      author_profile: true
 
 tipue_search:
     include:
@@ -291,8 +299,3 @@ tipue_search:
         files: [search.html, index.html, tags.html]
         categories: []
         tags: []
-
-sidebar:
-  - title: "solved.ac"
-    image: http://mazassumnida.wtf/api/generate_badge?boj=snoo_py
-    image_alt: "BOJ_snoo_py"
