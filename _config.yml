@@ -294,4 +294,5 @@ tipue_search:
 
 sidebar:
   - title: "solved.ac"
-    text: [![Solved.ac tier](http://mazassumnida.wtf/api/mini/generate_badge?boj=snoo_py)](https://solved.ac/profile/snoo_py)  
+    image: http://mazassumnida.wtf/api/generate_badge?boj=snoo_py
+    image_alt: "BOJ_snoo_py"
