@@ -23,6 +23,9 @@ sidebar:
     image_alt: "BOJ_snoo_py"
 
 docs:
+  - title: "solved.ac"
+    image: http://mazassumnida.wtf/api/generate_badge?boj=snoo_py
+    image_alt: "BOJ_snoo_py"
   - title: algorithm
     children:
     - title: tags
