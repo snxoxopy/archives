@@ -20,6 +20,6 @@ main:
 docs:
   - title: algorithm
     children:
-    - title: tags
+    - title: boj
       url: /tags/#boj
     
