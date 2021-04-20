@@ -266,6 +266,9 @@ compress_html:
   ignore:
     envs: development
 
+sidebar:
+  nav: "docs"
+
 # Defaults
 defaults:
   # _posts
@@ -291,7 +294,7 @@ defaults:
       type: docs
     values:
       sidebar:
-        nav: "docs"
+      nav: "docs"
 
 tipue_search:
     include:
