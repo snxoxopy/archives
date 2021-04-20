@@ -1,6 +1,6 @@
 ---
 title:  "[Giuhub.io] tag filtering sidebar 추가하기"
-excerpt: Sidebar 꾸며보자
+excerpt: boj tag sidebar 추가해보자
 toc: False
 toc_sticky: False
 toc_label: "Contents"
@@ -28,6 +28,6 @@ sidebar:
 docs:
   - title: algorithm
     children:
-    - title: tags
+    - title: boj
       url: /tags/#boj
 ```
