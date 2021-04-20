@@ -1,5 +1,5 @@
 ---
-title:  "[Giuhub.io] tag filtering sidebar 추가하기"
+title:  "[Github.io] tag filtering sidebar 추가하기"
 excerpt: boj tag sidebar 추가해보자
 toc: False
 toc_sticky: False
