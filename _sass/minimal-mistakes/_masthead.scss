@@ -11,7 +11,6 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
-  height: 70px;
 
   &__inner-wrap {
     @include clearfix;
@@ -44,7 +43,7 @@
     @include clearfix();
     position: -webkit-sticky;
     position: sticky;
-    top: 1em;
+    top: 5em;
     float: right;
   }
   
