@@ -11,12 +11,13 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
+  height: 70px;
 
   &__inner-wrap {
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    padding: 0em;
+    padding: 1em;
     max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -43,7 +44,7 @@
     @include clearfix();
     position: -webkit-sticky;
     position: sticky;
-    top: 0em;
+    top: 1em;
     float: right;
   }
   
