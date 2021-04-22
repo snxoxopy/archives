@@ -88,7 +88,7 @@ Q. 다음 중 Azure 계정에 연결된 Azure 서비스의 논리적 단위는 �
 
 [2]
 
-[2]
+[1]
 
 
 # 3. Azure Resource and Resource Manager
@@ -104,7 +104,8 @@ Q. 다음 중 Azure 계정에 연결된 Azure 서비스의 논리적 단위는 �
     - 가상 네트워크
 
 > SHOUT OUT TO
-[[MS Learn] Azure 구독 및 관리 그룹](https://docs.microsoft.com/ko-kr/learn/modules/azure-architecture-fundamentals/management-groups-subscriptions)
+>
+>[[MS Learn] Azure 구독 및 관리 그룹](https://docs.microsoft.com/ko-kr/learn/modules/azure-architecture-fundamentals/management-groups-subscriptions)
 
 ## 3.3 Resource Manager
 
@@ -191,8 +192,38 @@ Q. 다음 중 Azure 구독에 대한 올바른 설명은 무엇입니까?
 
         → Azure Update시, Paired Region은 동시에 Update 적용되지 않고 
 
-    - $\begin{array}{c:c:c} \text{Geography} & \text{Regional Pair A} & \text{Regional Pair B                     }\\\text{Asia-Pacific} & \text{East Asia (Hong Kong)} & \text{Southeast Asia (Singapore)	}\\\text{Australia} & \text{Australia East} & \text{Australia Southeast                 	}\\\text{Australia} & \text{Australia Central} & \text{Australia Central 2*             	}\\\text{Brazil} & \text{Brazil South} & \text{South Central US                         	}\\\text{Brazil} & \text{Brazil Southeast*} & \text{Brazil South                        	}\\\text{Canada} & \text{Canada Central} & \text{Canada East                            	}\\\text{China} & \text{China North} & \text{China East                                 	}\\\text{China} & \text{China North 2} & \text{China East 2                             	}\\\text{Europe} & \text{North Europe (Ireland)} & \text{West Europe (Netherlands)      	}\\\text{France} & \text{France Central} & \text{France South*                          	}\\\text{Germany} & \text{Germany West Central} & \text{Germany North*                  	}\\\text{India} & \text{Central India} & \text{South India                              	}\\\text{India} & \text{West India} & \text{South India                                 	}\\\text{Japan} & \text{Japan East} & \text{Japan West                                  	}\\\text{Korea} & \text{Korea Central} & \text{Korea South                              	}\\\text{North America} & \text{East US} & \text{West US                                	}\\\text{North America} & \text{East US 2} & \text{Central US                           	}\\\text{North America} & \text{North Central US} & \text{South Central US              	}\\\text{North America} & \text{West US 2} & \text{West Central US                      	}\\\text{Norway} & \text{Norway East} & \text{Norway West*                              	}\\\text{South Africa} & \text{South Africa North} & \text{South Africa West*           	}\\\text{Switzerland} & \text{Switzerland North} & \text{Switzerland West*              	}\\\text{UK} & \text{UK West} & \text{UK South                                          	}\\\text{United Arab Emirates} & \text{UAE North} & \text{UAE Central*                  	}\\\text{US Department of Defense} & \text{US DoD East*} & \text{US DoD Central*        	}\\\text{US Government} & \text{US Gov Arizona*} & \text{US Gov Texas*                  	}\\\text{US Government} & \text{US Gov Iowa*} & \text{US Gov Virginia*                  	}\\\text{US Government} & \text{US Gov Virginia*} & \text{US Gov Texas*                 	}\\\end{array}$
 
+    \begin{array}{c:c:c} 
+    \text{Geography} & \text{Regional Pair A} & \text{Regional Pair B                     }\\
+    \text{Asia-Pacific} & \text{East Asia (Hong Kong)} & \text{Southeast Asia (Singapore)	}\\
+    \text{Australia} & \text{Australia East} & \text{Australia Southeast                 	}\\
+    \text{Australia} & \text{Australia Central} & \text{Australia Central 2*             	}\\
+    \text{Brazil} & \text{Brazil South} & \text{South Central US                         	}\\
+    \text{Brazil} & \text{Brazil Southeast*} & \text{Brazil South                        	}\\
+    \text{Canada} & \text{Canada Central} & \text{Canada East                            	}\\
+    \text{China} & \text{China North} & \text{China East                                 	}\\
+    \text{China} & \text{China North 2} & \text{China East 2                             	}\\
+    \text{Europe} & \text{North Europe (Ireland)} & \text{West Europe (Netherlands)      	}\\
+    \text{France} & \text{France Central} & \text{France South*                          	}\\
+    \text{Germany} & \text{Germany West Central} & \text{Germany North*                  	}\\
+    \text{India} & \text{Central India} & \text{South India                              	}\\
+    \text{India} & \text{West India} & \text{South India                                 	}\\
+    \text{Japan} & \text{Japan East} & \text{Japan West                                  	}\\
+    \text{Korea} & \text{Korea Central} & \text{Korea South                              	}\\
+    \text{North America} & \text{East US} & \text{West US                                	}\\
+    \text{North America} & \text{East US 2} & \text{Central US                           	}\\
+    \text{North America} & \text{North Central US} & \text{South Central US              	}\\
+    \text{North America} & \text{West US 2} & \text{West Central US                      	}\\
+    \text{Norway} & \text{Norway East} & \text{Norway West*                              	}\\
+    \text{South Africa} & \text{South Africa North} & \text{South Africa West*           	}\\
+    \text{Switzerland} & \text{Switzerland North} & \text{Switzerland West*              	}\\
+    \text{UK} & \text{UK West} & \text{UK South                                          	}\\
+    \text{United Arab Emirates} & \text{UAE North} & \text{UAE Central*                  	}\\
+    \text{US Department of Defense} & \text{US DoD East*} & \text{US DoD Central*        	}\\
+    \text{US Government} & \text{US Gov Arizona*} & \text{US Gov Texas*                  	}\\
+    \text{US Government} & \text{US Gov Iowa*} & \text{US Gov Virginia*                  	}\\
+    \text{US Government} & \text{US Gov Virginia*} & \text{US Gov Texas*                 	}\\
+    \end{array}
 
 ## 4.3 Availability Options
 
