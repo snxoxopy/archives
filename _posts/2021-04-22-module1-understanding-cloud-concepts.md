@@ -1,6 +1,6 @@
 ---
 title:  "[Cloud] Understanding cloud concepts"
-excerpt: Module 1: Azure 기본 개념 설명
+excerpt: Module 1 Azure 기본 개념 설명
 toc: True
 toc_sticky: True
 toc_label: "Contents"
