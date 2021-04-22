@@ -7,8 +7,8 @@ toc_label: "Contents"
 
 sidebar:
   - title: "solved.ac"
-    image: http://mazassumnida.wtf/api/v2/generate_badge?boj=snoo_py
-    text: "![Solved.ac tier](http://mazassumnida.wtf/api/mini/generate_badge?boj=snoo_py)"
+    image: https://camo.githubusercontent.com/7ce64096f1a5ca4bc306a99f55460e781747dd17765880c148b9b6adca2b2a45/687474703a2f2f6d617a617373756d6e6964612e7774662f6170692f67656e65726174655f62616467653f626f6a3d736e6f6f5f7079](https://camo.githubusercontent.com/7ce64096f1a5ca4bc306a99f55460e781747dd17765880c148b9b6adca2b2a45/687474703a2f2f6d617a617373756d6e6964612e7774662f6170692f67656e65726174655f62616467653f626f6a3d736e6f6f5f7079
+    text: "[https://camo.githubusercontent.com/79fcbf056ec4786197f8a86132aeb99b66bde335982a6b7a41822dd3c122c912/687474703a2f2f6d617a617373756d6e6964612e7774662f6170692f6d696e692f67656e65726174655f62616467653f626f6a3d736e6f6f5f7079](https://camo.githubusercontent.com/79fcbf056ec4786197f8a86132aeb99b66bde335982a6b7a41822dd3c122c912/687474703a2f2f6d617a617373756d6e6964612e7774662f6170692f6d696e692f67656e65726174655f62616467653f626f6a3d736e6f6f5f7079)"
 
 author_profile: true
 categories:
@@ -25,7 +25,7 @@ tags:
 ```yaml
 sidebar:
   - title: "solved.ac"
-    image: http://mazassumnida.wtf/api/v2/generate_badge?boj=snoo_py
+    image: https://camo.githubusercontent.com/7ce64096f1a5ca4bc306a99f55460e781747dd17765880c148b9b6adca2b2a45/687474703a2f2f6d617a617373756d6e6964612e7774662f6170692f67656e65726174655f62616467653f626f6a3d736e6f6f5f7079](https://camo.githubusercontent.com/7ce64096f1a5ca4bc306a99f55460e781747dd17765880c148b9b6adca2b2a45/687474703a2f2f6d617a617373756d6e6964612e7774662f6170692f67656e65726174655f62616467653f626f6a3d736e6f6f5f7079
     text: "![Solved.ac tier](http://mazassumnida.wtf/api/mini/generate_badge?boj=snoo_py)"
 author_profile: true
 ```
