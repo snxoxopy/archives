@@ -22,3 +22,7 @@ docs:
     children:
     - title: boj
       url: /tags/#boj
+  - title: cloud
+    children:
+    - title: az-900
+      url: /tags/#az-900
