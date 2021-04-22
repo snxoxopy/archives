@@ -261,8 +261,9 @@ Q. 다음 중 사용자의 관리가 가장 많이 필요한 클라우드 서비
 - Cloud 또는 On-premises에서 Application을 실행할 수 있다.
 
 ### 3.4 Deploy Model 비교
+
 |Public Cloud|Private Cloud|Hybrid Cloud|
-|---|:---:|---:|
+|:-----------|:------------|:-----------|
 |CapEx X: 확장하기 위해 Server 구입 할 필요 없음|제어력: 조직은 Resource를 완벽하게 제어 가능|유동성: 업체는 Private 또는 Public Cloud에서 실행할지의 여부를 결정|
 |Agility: Application 빠른 접근 가능, 필요시 Provisioning 해제 가능|보안: 조직은 보안을 완벽하게 제어 가능|준수성: 조직은 필요에 따라 엄격한 보안, 규정 준수 또는 법적 요구사항을 준수할 수 있는 기능을 유지|
 |소비기반 Model: 조직은 OpEx 모델로 사용하고 운영하는 것에 대해서만 비용 지불|-|-|
