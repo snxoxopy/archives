@@ -201,7 +201,7 @@ Q. 다음 중 참인 것은 무엇인가요?
 ![](https://images.velog.io/images/snoo_py/post/69fd75fb-f28c-42d9-a654-7834614fa2e4/image.png)
 
 
-## 2.5 Exercises
+### 2.5 Exercises
 
 Q. Microsoft Office 365는 무엇의 예입니까?
 
