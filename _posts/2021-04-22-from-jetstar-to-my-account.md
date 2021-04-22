@@ -28,13 +28,11 @@ tags:
 
 ### SWIFT CODE
 | 은행명 | 영문 은행명 | SWIFT | 은행 영문주소 |
-|---|:---|:---|---|
-| 우리은행 | Woori Bank | HVBKKRSEXXX | 1585, Sangam-dong, mapo-gu, Seoul, Korea|
-| 국민은행 | Kookmin Bank | CZNBKRSE |120, Taepyung-Ro 2-Ga, Chung-Gu, Seoul, KOREA | 
+|:---:|:---:|:---:|:---|
+| 우리은행 | Woori Bank | HVBKKRSEXXX | 1585, Sangam-dong, mapo-gu, Seoul, Korea |
+| 국민은행 | Kookmin Bank | CZNBKRSE |120, Taepyung-Ro 2-Ga, Chung-Gu, Seoul, KOREA |
 | 신한은행 | Shinhan Bank | SHBKKRSE | 20, SEJONG-DAERO 9-GIL, JUNG-GU, SEOUL, SOUTH KOREA |
-| 외환 하나은행 | KEB HANA BANK | KOEXKRSE | 35, EULJI-RO, JUNG-GU, SEOUL KOREA|
-
-
+| 외환 하나은행 | KEB HANA BANK | KOEXKRSE | 35, EULJI-RO, JUNG-GU, SEOUL KOREA |
 
 
 ### 5W1H
