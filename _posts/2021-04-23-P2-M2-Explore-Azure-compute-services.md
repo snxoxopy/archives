@@ -1,6 +1,6 @@
 ---
-title:  "[Cloud] Understanding core Azure services"
-excerpt: Module 3 Azure 컴퓨팅 서비스 살펴보기
+title:  "[Cloud] P2_M2_Explore Azure compute services"
+excerpt: Part2/Module3/Azure 컴퓨팅 서비스 살펴보기
 toc: True
 toc_sticky: True
 toc_label: "Contents"
@@ -12,7 +12,7 @@ tags:
   - az-900
 ---
 
-# Module 3 - Learning objectives
+# Module 2 - Learning objectives
 
 After completing this module, you'll be able to describe the benefits and usage of.
 
