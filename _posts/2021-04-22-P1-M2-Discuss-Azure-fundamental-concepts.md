@@ -1,6 +1,6 @@
 ---
-title:  "[Cloud] Understanding cloud concepts"
-excerpt: Module 1 Azure 기본 개념 설명
+title:  "[Cloud] P1_M2_Discuss Azure fundamental concepts"
+excerpt: Part1/Module2/Azure 기본 개념 설명
 toc: True
 toc_sticky: True
 toc_label: "Contents"
@@ -12,7 +12,8 @@ tags:
   - az-900
 ---
 
-# Module 1 학습목표
+# Module 2 학습목표
+
 - Cloud Computing 이점 및 주요 용어 이해
 - IaaS, Pass, and SaaS Cloud Service 이해
 - Public, Private 및 Hybrid Cloud Computing 이해
