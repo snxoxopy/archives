@@ -1,6 +1,6 @@
 ---
 title:  "[Cloud] P2_M2_Explore Azure compute services"
-excerpt: Part2/Module3/Azure 컴퓨팅 서비스 살펴보기
+excerpt: Part2/Module2/Azure 컴퓨팅 서비스 살펴보기
 toc: True
 toc_sticky: True
 toc_label: "Contents"
