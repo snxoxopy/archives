@@ -1,6 +1,6 @@
 ---
-title:  "[Cloud] Understanding core Azure architectural components"
-excerpt: Module 2 핵심 Azure 아키텍처 구성 요소 설명
+title:  "[Cloud] P1_M3_Describe core Azure architectural components"
+excerpt: Part1/Module3/핵심 Azure 아키텍처 구성 요소 설명
 toc: True
 toc_sticky: True
 toc_label: "Contents"
@@ -12,7 +12,7 @@ tags:
   - az-900
 ---
 
-# Module 2 학습목표
+# Module 3 학습목표
 
 - Azure 구독 및 관리 그룹
 - Azure Resource, Resource Group, and Azure Resource Manager
