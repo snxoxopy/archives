@@ -1,6 +1,6 @@
 ---
 title:  "[Cloud] P2_M4_Explore Azure networking services"
-excerpt: Part2/Module3/Azure 네트워킹 서비스 살펴보기
+excerpt: Part2/Module4/Azure 네트워킹 서비스 살펴보기
 toc: True
 toc_sticky: True
 toc_label: "Contents"
