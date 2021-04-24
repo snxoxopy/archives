@@ -26,14 +26,21 @@ After completing this module, you'll be able to describe the benefits and usage 
 # 1. Overview of Azure compute services
 
 - Cloud 기반의 Application을 실행하기 위한 주문형 컴퓨터 서비스
-- **Disks, Processors, Memory, Networking, and OS와 같은 Computing Resources를 제공하는 주문형 Compute Service이다.**
+- **Disks, Processors, Memory, Networking, and OS와 같은 Computing Resources를 제공**
 - 즉각적인 Resources 제공 (일반적으로 몇 분 또는 몇 초 이내)
 - 사용 기간의 요금만 지불
 
+|Disk Storage|Container Storage(Blob)|Azure Files|
+|:-----------|:----------------------|:----------|
+|- IaaS|- PaaS|- IaaS|
+|- VMs, Applications 등의 Services가 접근하고 사용할 수 있는 Disks를 제공한다.|- Text 또는 Binary data와 같은 대량의 비구조적 Data 저장용으로 최적화되어있다.|- 표준 SMB Protocol을 사용하여 접근할 수 있는 고가용성 Network file shares를 설정한다.
+|
+
 ## 1.1 Virtual Machines
 
-- 물리적 Computer의 SW Emulation (Emulation: 한 컴퓨터가 다른 컴퓨터처럼 똑같이 작동하도록 모방하는 것)
 - 완벽한 제어와 사용자 지정이 가능한 **IaaS**
+- 물리적 Computer의 SW Emulation
+    - *Emulation: 한 컴퓨터가 다른 컴퓨터처럼 똑같이 작동하도록 모방하는 것
 - 포함된 기능
     - Processors
     - Memory
@@ -42,19 +49,21 @@ After completing this module, you'll be able to describe the benefits and usage 
 
 ## 1.2 Container Instances and Kubernetes Service
 
+- **PaaS**
 - 운영 체제 관리 불필요
 - 필요 시 적절하게 변경할 수 있는 가벼운 가상화 환경
 - Container를 배포하고 관리하는데 사용할 수 있는 Compute resource
 - 빠르게 동적으로 만들고, 생성, 확장 및 중지되도록 설계됨
 - 유형
-    - Azure Container Instances (ACI): VM 혹은 추가 Service를 관리할 필요 없이 실행할 수 있는 **PaaS**
+    - Azure Container Instances (ACI): VM 혹은 추가 Service를 관리할 필요 없이 실행할 수 있는
     - Azure Kubernetes Service (AKS): 분산 Architecture와 대량의 Container를 다루는데 적합한 Orchestration Service
 
 ## 1.3 Azure App Service
 
+- **PaaS**
 - 모든 Platform에서 실행되는 기업 수준의 Web, Mobile, API Apps 을 신속하게 build, deploy, scale
 - 완전 관리형 Platform을 사용하여 인프라 유지 관리를 수행하는 동안 엄격한 성능, 확장성, 보안 및 규정 준수 요구 사항을 충족
-- App Service is a platform as a service (PaaS) offering.
+
 
 ## 1.4 Azure Functions (or *serverless computing*)
 
