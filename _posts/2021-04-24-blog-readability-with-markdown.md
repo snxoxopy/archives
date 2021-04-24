@@ -11,10 +11,15 @@ categories:
 ---
 
 ###Headers
+
 #Head1
+
 ##Head2
+
 ###head3
+
 ####head4
+
 #####head5
 
     *minimal-mistakes 기본 테마에서는 H2 헤더에 대해 구분선이 자동으로 추가
