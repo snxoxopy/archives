@@ -10,7 +10,7 @@ categories:
   - blog
 ---
 
-### Headers
+## Headers
 
 # Head1
 
@@ -25,7 +25,7 @@ categories:
     *minimal-mistakes 기본 테마에서는 H2 헤더에 대해 구분선이 자동으로 추가
 
 
-###띄어쓰기
+## 띄어쓰기
 
 [space bar 2번]  
 강제 개행 연습하기  
@@ -41,7 +41,8 @@ categories:
 
 3번한 결과는 이와같다.
 
-###강조
+## 강조
+
 [tab2번]
 
     tab2번 후 작성한 결과는 이러하다.
