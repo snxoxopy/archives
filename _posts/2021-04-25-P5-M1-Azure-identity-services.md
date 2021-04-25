@@ -150,3 +150,9 @@ Q. IT 부서에서 얼굴 인식과 같은 생체 인식 속성을 사용하여 
 
 > SHOUT OUT TO  
 > [[MS Learn] 다단계 인증 및 조건부 액세스란?](https://docs.microsoft.com/ko-kr/learn/modules/secure-access-azure-identity-services/4-what-are-mfa-conditional-access)
+ 
+### 3.7 Answer
+
+[2]
+
+[3]
