@@ -1,5 +1,5 @@
 ---
-title:  "[R] Data 수정하기 > 변수명 바꾸기"
+title:  "[R] Data 수정하기 및 변수명 바꾸기"
 excerpt: Doit R p91 ~ p110
 toc: True
 toc_sticky: True
@@ -12,16 +12,19 @@ tags:
   - R
 ---
 
-변수 종류
-1. 이산형(Discrete)
-1. 명목형 변수
-2. 순위형 변수
-2. 연속형(Continous)
-1. 간격형 변수
-2. 비율형 변수
-조건 파생 변수
+## 변수 종류
+### 1. 이산형(Discrete)
+#### 1. 명목형 변수
+#### 2. 순위형 변수
+### 2. 연속형(Continous)
+#### 1. 간격형 변수
+#### 2. 비율형 변수
+
+##  조건 파생 변수
+
 조건문을 이용해 연속형 data를 이산형, 범주형 data로 바꿈
 
+```R
 > df_mpg$test <- ifelse(df_mpg$total >= 20, "pass", "fail")
 > head(df_mpg, 20)
    manufacturer              model
@@ -91,11 +94,16 @@ tags:
 
 fail pass 
  106  128
-Factor, 이산형 데이터
-기본적으로 R에서 Factor는 이산형 데이터로 간주한다.
-문자열은 자동으로 이산형으로 인식
-하지만, Factor 형태로 지정해주는 것은 자동이 아님
-data 분석을 위해 이산형 데이터, factor 형 임을 인식하고 수동으로 바꾸는 것을 권장
+```
+
+## Factor, 이산형 데이터
+
+- 기본적으로 R에서 Factor는 이산형 데이터로 간주한다.
+- 문자열은 자동으로 이산형으로 인식
+- 하지만, Factor 형태로 지정해주는 것은 자동이 아님
+- data 분석을 위해 이산형 데이터, factor 형 임을 인식하고 수동으로 바꾸는 것을 권장
+
+```R
 > df_mpg$test <- as.factor(df_mpg$test)
 > str(df_mpg)
 'data.frame':	234 obs. of  13 variables:
@@ -112,16 +120,24 @@ data 분석을 위해 이산형 데이터, factor 형 임을 인식하고 수동
  $ class       : chr  "compact" "compact" "compact" "compact" ...
  $ total       : num  23.5 25 25.5 25.5 21 22 22.5 22 20.5 24 ...
  $ test    
-qplot, 이산형 데이터
+```
+
+### qplot, 이산형 데이터
+```R
 > library(ggplot2)
 > qplot(df_mpg$test)
-image
+```
+![image](https://user-images.githubusercontent.com/36683439/116853314-cc3eaf80-ac30-11eb-9e3d-f2c79af46162.png)
 
+```R
 > df_mpg$grade <- ifelse(df_mpg$total >= 30, "A", ifelse(df_mpg$total >= 20, "B", "C"))
 > qplot(df_mpg$grade)
-image
+```
+![image](https://user-images.githubusercontent.com/36683439/116853584-47a06100-ac31-11eb-9356-bd671d5d7b62.png)
 
-분석 도전 p123
+### 분석 도전 p123
+
+```R
 #Q1.
 df_midwest <- as.data.frame(midwest)
 str(df_midwest)
@@ -142,3 +158,4 @@ df_midwest$larg_small <- ifelse(mean(df_midwest$asianpt)<df_midwest$asianpt,"lar
 #Q5.
 table(df_midwest$larg_small)
 qplot(df_midwest$larg_small)
+```
