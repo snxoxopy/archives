@@ -7,18 +7,23 @@ toc_label: "Contents"
 sidebar:
   nav: "docs"
 categories:
-  - Data_Science
+  - data_science
 tags:
   - R
 ---
 
 ## 변수 종류
+
 ### 1. 이산형(Discrete)
-#### 1. 명목형 변수
-#### 2. 순위형 변수
+
+1. 명목형 변수
+2. 순위형 변수
+
 ### 2. 연속형(Continous)
-#### 1. 간격형 변수
-#### 2. 비율형 변수
+
+1. 간격형 변수
+2. 비율형 변수
+
 
 ##  조건 파생 변수
 
