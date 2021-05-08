@@ -26,3 +26,7 @@ docs:
     children:
     - title: az-900
       url: /tags/#az-900
+  - title: data science
+    children:
+    - title: R
+      url: /tags/#R
